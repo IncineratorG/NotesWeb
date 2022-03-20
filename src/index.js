@@ -1,12 +1,14 @@
+// yarn run build
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AppLoader from "./components/common/app-loader/AppLoader";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <AppLoader />
   </React.StrictMode>,
   document.getElementById('root')
 );
